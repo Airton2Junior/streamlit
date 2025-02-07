@@ -1,10 +1,7 @@
-import streamlit as st  # Por convenção, vamos apelidar o streamlit de st
+import streamlit as st
 
-# Aqui definimos o título da página e o layout como wide
-st.set_page_config(page_title="Página 01",layout="wide")
-
-#Título do seu dashboard
-st.write("""
-# Página 01
-Seguem informações desta página
-""")
+st.title("Olá, Mundo no Streamlit! 🎈")
+st.write("Este é um exemplo simples de aplicativo web.")
+nome = st.text_input("Digite seu nome:")
+if nome:
+    st.write(f"Bem-vindo, {nome}!")
