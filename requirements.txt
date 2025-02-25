@@ -1,1 +1,8 @@
-
+streamlit
+pandas
+altair
+urllib
+pydeck
+numpy
+matplotlib
+time
